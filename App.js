@@ -11,11 +11,11 @@ const App = () => {
   React.useEffect(() => {
     Alert.alert('Você pode chacoalhar ou clicar para ligar e desligar a lanterna.')
   }, [])
-
+/*
   React.useEffect(() => {
     Torch.switchState(toggle);
   }, [toggle])
-
+*/
 
   React.useEffect(() => {
     const subscription = RNShake.addListener(() => {
